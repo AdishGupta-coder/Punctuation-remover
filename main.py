@@ -1,9 +1,9 @@
-punctuations = '''!()-{};:'"/?@\,#$%^<>[].&*_~'''
-no_punct = ""
+punctuation = '''!()-{};:'"/?@\,#$%^<>[].&*_~'''
+empty = ""
 
-my_str = input("Enter a string: ")
+text = input("Please enter some text: ")
 
-for char in my_str:
-   if char not in punctuations:
-       no_punct = no_punct + char
-print(no_punct)
+for char in text:
+   if char not in punctuation:
+       empty = empty + char
+print(empty)
